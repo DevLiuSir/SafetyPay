@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B118E9420769B0F005D2350 /* SafetyPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B118E9320769B0F005D2350 /* SafetyPayView.swift */; };
 		6BED3AD72071138E00635313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BED3AD62071138E00635313 /* AppDelegate.swift */; };
 		6BED3AD92071138E00635313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BED3AD82071138E00635313 /* ViewController.swift */; };
 		6BED3ADC2071138E00635313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BED3ADA2071138E00635313 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B118E9320769B0F005D2350 /* SafetyPayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyPayView.swift; sourceTree = "<group>"; };
 		6BED3AD32071138E00635313 /* SafetyPayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyPayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BED3AD62071138E00635313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BED3AD82071138E00635313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B118E9220769B0F005D2350 /* SafetyPayView */ = {
+			isa = PBXGroup;
+			children = (
+				6B118E9320769B0F005D2350 /* SafetyPayView.swift */,
+			);
+			name = SafetyPayView;
+			path = ../../SafetyPayView;
+			sourceTree = "<group>";
+		};
 		6BED3ACA2071138E00635313 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +65,7 @@
 		6BED3AD52071138E00635313 /* SafetyPayExample */ = {
 			isa = PBXGroup;
 			children = (
+				6B118E9220769B0F005D2350 /* SafetyPayView */,
 				6BED3AD62071138E00635313 /* AppDelegate.swift */,
 				6BED3AD82071138E00635313 /* ViewController.swift */,
 				6BED3ADA2071138E00635313 /* Main.storyboard */,
@@ -136,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B118E9420769B0F005D2350 /* SafetyPayView.swift in Sources */,
 				6BED3AD92071138E00635313 /* ViewController.swift in Sources */,
 				6BED3AD72071138E00635313 /* AppDelegate.swift in Sources */,
 			);

@@ -12,14 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        /*****  SafetyPayView  *****/
+        let vi = SafetyPayView(frame: CGRect(x: (view.bounds.width - 300) / 2, y: 200, width: 300, height: 50))
+        vi.style = .plaintext
+        view.addSubview(vi)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
